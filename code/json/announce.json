@@ -1,0 +1,389 @@
+{"announce":[
+	"华为老用户专享福利公告","HUAWEI Matebook13 Window","感恩回馈企业尊享礼盒"
+],
+"banner":[{"src":"src/img/banner01.jpg"},{"src":"src/img/banner2.jpg"},{"src":"src/img/banner3.jpg"},{"src":"src/img/banner4.jpg"}],
+
+"main3":[
+{
+	"id":1001,
+	"type":"hot",
+	"src":"src/img/ma2.png",
+	"title":"HUAWEI nova 5z",
+	"intro":"限时直降200元",
+	"price":"1399",
+	"label":"爆款"
+},
+{
+	"id":1002,
+	"type":"hot",
+	"src":"src/img/ma3.png",
+	"title":"荣耀V30 PRO",
+	"intro":"最高24期免息",
+	"price":"4199",
+	"label":"5G新品"
+},
+{
+	"id":1003,
+	"src":"src/img/ma4.png",
+	"title":"HUAWEI|Mate RS 保时捷设计",
+	"intro":"致敬时代",
+	"price":"12999",
+	"label":""
+},
+{
+	"id":1004,
+	"src":"src/img/ma5.png",
+	"title":"荣耀20",
+	"intro":"最高优惠600",
+	"price":"2099",
+	"label":""
+},
+{
+	"id":1005,
+	"src":"src/img/ma6.png",
+	"title":"HUWEI|nova 5i Pro",
+	"intro":"最高直降200",
+	"price":"1599",
+	"label":""
+},
+{
+	"id":1006,
+	"src":"src/img/ma7.png",
+	"title":"荣耀20 PRO",
+	"intro":"直降500|享24期免息",
+	"price":"2699",
+	"label":""
+},
+{
+	"id":1007,
+	"src":"src/img/ma8.png",
+	"title":"荣耀20青春版",
+	"intro":"最高优惠300 送耳机",
+	"price":"1099",
+	"label":""
+},
+{
+	"id":1008,
+	"src":"src/img/ma9.png",
+	"title":"HUAWEI|nova5 PRO",
+	"intro":"12期免息|以旧换新优惠100",
+	"price":"2199",
+	"label":""
+},
+{
+	"id":1009,
+	"type":"hot",
+	"src":"src/img/recommen1.png",
+	"title":"HUAWEI MateBook D 15",
+	"intro":"高全面屏 便携超级快充",
+	"price":"5599",
+	"label":"新品上市"
+},
+{
+	"id":1010,
+	"type":"hot",
+	"src":"src/img/recommen2.png",
+	"title":"荣耀MagicBook 14",
+	"intro":"订金100最高抵500",
+	"price":"3899",
+	"label":"新品上市"
+},
+{
+	"id":1011,
+	"src":"src/img/recommen3.png",
+	"title":"HUAWEI WATCH GT 2",
+	"intro":"稀缺货源，限量开售",
+	"price":"1988"
+},
+{
+	"id":1012,
+	"type":"hot",
+	"src":"src/img/recommen4.png",
+	"title":"荣耀智慧屏系列",
+	"intro":"最高降900+最高24期免息",
+	"price":"2899",
+	"label":"特惠"
+},
+{
+	"id":1013,
+	"type":"cold",
+	"src":"src/img/recommen5.png",
+	"title":"华为智慧屏",
+	"intro":"限时优惠400+500元花币卡",
+	"price":"6599",
+	"label":"分期免息"
+},
+{
+	"id":1014,
+	"type":"cold",
+	"src":"src/img/recommen6.png",
+	"title":"HUAWEI MateBook 13",
+	"intro":"2K全面屏笔记本",
+	"price":"4399",
+	"label":"分期免息"
+},
+{
+	"id":1015,
+	"type":"cold",
+	"src":"src/img/recommen7.png",
+	"title":"HUAWEI VR Class",
+	"intro":"限时优惠100",
+	"price":"2899",
+	"label":"新品"
+},
+{
+	"id":1016,
+	
+	"src":"src/img/recommen8.png",
+	"title":"荣耀平板5 10.1英寸",
+	"intro":"限时降100+3期免息",
+	"price":"1099"
+},
+{
+	"id":1017,
+	"src":"src/img/recommen9.png",
+	"title":"HUAWEI FreeBuds 3",
+	"intro":"限时优惠60",
+	"price":"1139"
+},
+{
+	"id":1018,
+	"type":"hot",
+	"src":"src/img/recommen10.png",
+	"title":"华为智能体质称 2Pro",
+	"intro":"限时优惠10元",
+	"price":"489",
+	"label":"新品上市"
+},
+{
+	"id":1019,
+	"src":"src/img/p1.png",
+	"title":"荣耀9X PRO",
+	"intro":"优惠200 送配件大礼包",
+	"price":"1999"
+},
+{
+	"id":1020,
+	"type":"hot",
+	"src":"src/img/p2.png",
+	"title":"HUAWEI Mate 30 4G",
+	"intro":"享12期免息",
+	"price":"4299",
+	"label":"爆款"
+},
+{
+	"id":1021,
+	"type":"hot",
+	"src":"src/img/p3.png",
+	"title":"荣耀20S",
+	"intro":"最高优惠400",
+	"price":"1499",
+	"label":"爆款"
+},
+{
+	"id":1022,
+	"src":"src/img/p4.png",
+	"title":"HUAWEI nova 5",
+	"intro":"领券优惠400",
+	"price":"2599"
+},
+{
+	"id":1023,
+	"src":"src/img/p5.png",
+	"title":"荣耀Play3",
+	"intro":"最高优惠300元",
+	"price":"899"
+},
+{
+	"id":1024,
+	"src":"src/img/p6.png",
+	"title":"HUAWEI P30",
+	"intro":"蹭好礼享12期免息",
+	"price":"3688"
+},
+{
+	"id":1025,
+	"src":"src/img/p7.png",
+	"title":"荣耀20i",
+	"intro":"最高降600元",
+	"price":"1299"
+},
+{
+	"id":1026,
+	"src":"src/img/p8.png",
+	"title":"华为畅享10 Plus",
+	"intro":"最高领券减100",
+	"price":"1399"
+},
+{
+	"id":1027,
+	"src":"src/img/p9.png",
+	"title":"荣耀Magic2",
+	"intro":"整点购机抢好礼",
+	"price":"1799"
+}
+],
+"advertList":[
+	"src/img/tab1.png",
+	"src/img/tab2.jpg",
+	"src/img/tab3.jpg",
+	"src/img/tab4.jpg"
+],
+"recommen":[
+{
+	"id":1009,
+	"type":"hot",
+	"src":"src/img/recommen1.png",
+	"title":"HUAWEI MateBook D 15",
+	"intro":"高全面屏 便携超级快充",
+	"price":"5599",
+	"label":"新品上市"
+},
+{
+	"id":1010,
+	"type":"hot",
+	"src":"src/img/recommen2.png",
+	"title":"荣耀MagicBook 14",
+	"intro":"订金100最高抵500",
+	"price":"3899",
+	"label":"新品上市"
+},
+{
+	"id":1011,
+	"src":"src/img/recommen3.png",
+	"title":"HUAWEI WATCH GT 2",
+	"intro":"稀缺货源，限量开售",
+	"price":"1988"
+},
+{
+	"id":1012,
+	"type":"hot",
+	"src":"src/img/recommen4.png",
+	"title":"荣耀智慧屏系列",
+	"intro":"最高降900+最高24期免息",
+	"price":"2899",
+	"label":"特惠"
+},
+{
+	"id":1013,
+	"type":"cold",
+	"src":"src/img/recommen5.png",
+	"title":"华为智慧屏",
+	"intro":"限时优惠400+500元花币卡",
+	"price":"6599",
+	"label":"分期免息"
+},
+{
+	"id":1014,
+	"type":"cold",
+	"src":"src/img/recommen6.png",
+	"title":"HUAWEI MateBook 13",
+	"intro":"2K全面屏笔记本",
+	"price":"4399",
+	"label":"分期免息"
+},
+{
+	"id":1015,
+	"type":"cold",
+	"src":"src/img/recommen7.png",
+	"title":"HUAWEI VR Class",
+	"intro":"限时优惠100",
+	"price":"2899",
+	"label":"新品"
+},
+{
+	"id":1016,
+	
+	"src":"src/img/recommen8.png",
+	"title":"荣耀平板5 10.1英寸",
+	"intro":"限时降100+3期免息",
+	"price":"1099"
+},
+{
+	"id":1017,
+	"src":"src/img/recommen9.png",
+	"title":"HUAWEI FreeBuds 3",
+	"intro":"限时优惠60",
+	"price":"1139"
+},
+{
+	"id":1018,
+	"type":"hot",
+	"src":"src/img/recommen10.png",
+	"title":"华为智能体质称 2Pro",
+	"intro":"限时优惠10元",
+	"price":"489",
+	"label":"新品上市"
+}]
+,"phone":[
+{
+	"id":1019,
+	"src":"src/img/p1.png",
+	"title":"荣耀9X PRO",
+	"intro":"优惠200 送配件大礼包",
+	"price":"1999"
+},
+{
+	"id":1020,
+	"type":"hot",
+	"src":"src/img/p2.png",
+	"title":"HUAWEI Mate 30 4G",
+	"intro":"享12期免息",
+	"price":"4299",
+	"label":"爆款"
+},
+{
+	"id":1021,
+	"type":"hot",
+	"src":"src/img/p3.png",
+	"title":"荣耀20S",
+	"intro":"最高优惠400",
+	"price":"1499",
+	"label":"爆款"
+},
+{
+	"id":1022,
+	"src":"src/img/p4.png",
+	"title":"HUAWEI nova 5",
+	"intro":"领券优惠400",
+	"price":"2599"
+},
+{
+	"id":1023,
+	"src":"src/img/p5.png",
+	"title":"荣耀Play3",
+	"intro":"最高优惠300元",
+	"price":"899"
+},
+{
+	"id":1024,
+	"src":"src/img/p6.png",
+	"title":"HUAWEI P30",
+	"intro":"蹭好礼享12期免息",
+	"price":"3688"
+},
+{
+	"id":1025,
+	"src":"src/img/p7.png",
+	"title":"荣耀20i",
+	"intro":"最高降600元",
+	"price":"1299"
+},
+{
+	"id":1026,
+	"src":"src/img/p8.png",
+	"title":"华为畅享10 Plus",
+	"intro":"最高领券减100",
+	"price":"1399"
+},
+{
+	"id":1027,
+	"src":"src/img/p9.png",
+	"title":"荣耀Magic2",
+	"intro":"整点购机抢好礼",
+	"price":"1799"
+}
+]
+
+
+}

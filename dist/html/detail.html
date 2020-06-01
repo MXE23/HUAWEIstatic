@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>详情页</title>
+    <script src="../js/cartObj.min.js"></script>
+    <link rel="icon" href="../src/img/favicon.ico">
+    <script src="../js/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../iconfont/font/iconfont.css">
+    <link rel="stylesheet" href="../css/detail.css">
+    <script src="../js/detail.min.js"></script>
+</head>
+
+<body>
+    <div class="top clearfix">
+        <div class="w">
+            <div class="top_nav">
+                <!-- 左侧导航 -->
+                <div class="top_nav_01">
+                    <ul>
+                        <li class="nav_a"><a href="#">首页</a></li>
+                        <li class="nav_a"><a href="">华为官网</a></li>
+                        <li class="nav_a"><a href="#">荣耀官网</a></li>
+                        <li class="nav_a"><a href="#">花粉俱乐部</a></li>
+                        <li class="nav_a"><a href="javascript:;">V码(优购码)</a></li>
+                        <li class="nav_a"><a href="#">企业购</a></li>
+                        <li class="nav_a"><a href="javascript:;">Select Region</a></li>
+                        <li class="nav_a nav-a2 ">
+                            <a href="javascript:;">更多精彩 <i class="nav-a2_i nav_i"></i></a>
+                            <div class="twoMenu">
+                                <ul>
+                                    <li><a href="javascript:;">EMUI</a></li>
+                                    <li><a href="javascript:;">应用市场</a></li>
+                                    <li><a href="javascript:;">华为终端云空间</a></li>
+                                    <li><a href="javascript:;">开发者联盟</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 右侧导航 -->
+                <div class="top_nav-c">
+                    <ul class="top_nav-c_u">
+                        <li class="nav_a"><a href="">请登录&nbsp;</a></li>
+                        <li class="nav_a"><a href="">注册</a></li>
+                        <li class="nav_a"><a href="javascript:;">我的订单</a></li>
+                        <li class="nav_a nav_b2js nav_a_no">
+                            <a href="javascript:;">客户服务<i class="nav-a2_i nav_i"></i></a>
+                            <div style="width: 80px;">
+                                <ul>
+                                    <li><a href="#">服务中心</a> </li>
+                                    <li><a href="#">联系客服</a> </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav_a nav_a_no">
+                            <a href="javascript:;">
+                                网站导航
+                                <i class="nav-a2_i nav_i"></i>
+                            </a>
+                            <div class="twoMenuList">
+                                <div>
+                                    <a href="javascript:;"></a>
+                                    <em>商城首页</em>
+                                </div>
+                                <div>
+                                    <h1>频道</h1>
+                                    <span> <a href=""></a> 华为专区</a></span>
+                                    <span> <a href=""></a> 荣耀专区</a> </span>
+                                    <span> <a href="">企业购</a> </span>
+                                </div>
+                                <div>
+                                    <h1>产品</h1>
+                                    <span>手机</span>
+                                    <span>智能家居</span>
+                                    <span>平板</span>
+                                    <span>通用配件</span>
+                                    <span>智能穿戴</span>
+                                    <span>专属配件</span>
+                                </div>
+                                <div>
+                                    <h1>增值服务</h1>
+                                    <span>以旧换新</span>
+                                    <span>礼品包装</span>
+                                    <span>补购保障</span>
+                                    <span>一口价换电池</span>
+                                </div>
+                                <div>
+                                    <h1>会员</h1>
+                                    <span>会员频道</span>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav_a nav_a_no nav_b4jsi">
+                            <a href="javascript:;">手机版 <i class="nav-a2_i nav_i"></i></a>
+                            <div class="nav_b4js">
+                                <div class="nav_b4js_a">
+                                    <img src="../src/img/FWETOIrFlCrX4xuB8E16.png" alt="">
+                                    <div class="a1 fl">
+                                        <h6>华为商城APP</h6>
+                                        <p>
+                                            新人专享好礼
+                                            <br>
+                                            最高5000积分
+                                        </p>
+                                        <span class="a1_sp1"></span>
+                                        <span class="a1_sp2"></span>
+                                    </div>
+                                </div>
+                                <div class="nav_b4js_a">
+                                    <img src="../src/img/20181116180507506.jpg" alt="">
+                                    <div class="a1 fl">
+                                        <h6>华为商城公众号</h6>
+                                        <p>微信扫一扫</p>
+                                        <span class="a1_sp2"></span>
+                                    </div>
+                                </div>
+                                <div class="nav_b4js_a" style="border: 0;">
+                                    <img src="../src/img/6Y7SW4v4hnJ9kl9fDC9d.jpg" alt="">
+                                    <div class="a1 fl">
+                                        <h6>微信小程序</h6>
+                                        <span class="a1_sp2"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=" nav_a_no cart_btn">
+                            <i class="iconfont icon-gouwuche"></i>
+                            <a href="javascript:;">购物车</a>
+                            <div class="cartList">
+                                <span></span>
+                                <p>您的购物车是空的，赶紧选购吧~</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 顶部搜索 -->
+    <div class="top_log clearfix">
+        <div class="w clearfix">
+            <!-- 左logo -->
+            <div class="logo_left">
+                <a href="javascript:;">
+                    <img src="../src/img/SXppnESYv4K11DBxDFc2.png" alt="">
+                </a>
+            </div>
+            <!-- 中 -->
+            <div class="nav_concent">
+                <ul>
+                    <li style="margin-left: 20px;">
+                        <a href="">手机</a>
+                    </li>
+                    <li>
+                        <a href="">平板</a>
+                    </li>
+                    <li><a href="">智能穿戴 & VR</a></li>
+                    <li><a href="">智能家居 & 智慧屏</a></li>
+                    <li><a href="">热销配件</a></li>
+
+                </ul>
+            </div>
+            <!-- 右 -->
+            <div class="right_inp">
+                <div class="search">
+                    <input class="searchItem" type="text">
+                    <span class="searchIcon iconfont icon-search"></span>
+                </div>
+
+                <span class="searchTxt1">nova 6</span>
+                <span class="searchTxt2">荣耀V30 5G</span>
+
+                <!-- 隐藏 -->
+                <div class="box_a">
+                    <p>热门搜索</p>
+                    <ul></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wp">
+        <div id="deConnect">
+
+        </div>
+
+        <div id="base">
+            <div class="bigSize"></div>
+            <div class="numBtn">
+                <button class="add"><i class="iconfont icon-jjia-"></i></button>
+                <input type="text" id="addnum" value="1" />
+                <button class="sub"><i class="iconfont icon-ziyuan"></i></button>
+                <p>总价：<span class="allPrice"></span></p>
+            </div>
+            <input type="button" value="加入购物车" class="addCart">
+        </div>
+    </div>
+    <script>
+function indexMain() {
+		/* 二级菜单*/
+		; (function ($) {
+			$('.nav_a').hover(function () {
+				$(this).css("background", "#FFF");
+				$(this).find('div').css("display", "block");
+				$(this).find('i').css("background-position-x", "-85px");
+			}, function () {
+				$(this).find('div').css("display", "none");
+				$(this).find('i').css("background-position-x", "-71px");
+				$(this).css("background", "#f9f9f9");
+			})
+
+			$('.banner_nav2').hover(function () {
+				$(this).find('.banner_nav1').css({ "display": "block" })
+				$(this).css("background", "#FFF");
+			}, function () {
+				$(this).find('.banner_nav1').css("display", "none");
+				$(this).css("background", "rgba(255, 255, 255, 0.7)");
+			})
+		})(jQuery);
+
+		/*购物车按钮*/
+
+		$('.cart_btn ,#cart').click(function () {
+			window.open('http://localhost:8080/html/cart.html');
+		});
+
+
+		$('.cart_btn').hover(function () {
+
+			let user = JSON.parse(localStorage.getItem("userData")); 
+    
+			if(user){
+				var url = "1003/userData/"+user.id;
+			}else{
+				var url = "1002/visitor"
+			}
+
+
+			$(this).css("background", "#FFF");
+			$('.cartList').css("display", "block");
+			$.get("http://localhost:" + url, function (data) {
+				if(user){
+					data = JSON.parse(data.cartData);
+				}
+				$.get("http://localhost:1001/main3", function (data2) {
+					let str = "";
+					let oUl = document.createElement("ul");
+					$(data).each(function (item) {
+						$(data2).each(function (index) {
+							if (data[item].id == data2[index].id) {
+								str += `
+							<li>
+								<a href="">
+									<img src="../${data2[index].src}" />
+									<div>
+										<p>${data2[index].title}</p>
+										<span>×${data[item].num}</span>
+										<span class="price">￥${data2[index].price}</span>
+									</div>
+								</a>
+							</li>`
+							}
+						});
+					});
+					let btn = '<input type="button" value="去结算" class="pay" />'
+					$(oUl).html(str + btn);
+					//console.log(str);
+					$('.cartList').html($(oUl));
+				})
+				$.get("http://localhost:" + url, function (data) {
+					let num = 0;
+						if(user){
+							data = JSON.parse(data.cartData);
+						}
+					$(data).each(function (item) {
+						if (data[item].num) {
+							num += Number(data[item].num);
+						}
+					})
+					//console.log(num);
+					$(".prodnum").text("(" + num + ")");
+				})
+
+
+			})
+			$('.pay').click(function () {
+				window.open('http://localhost:8080/html/cart.html')
+			})
+
+		}, function () {
+			$(this).css("background", "#F2F2F2");
+			$('.cartList').css("display", "none");
+		})
+	}
+	indexMain();
+
+    </script>
+</body>
+
+</html>

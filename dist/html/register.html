@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../src/img/favicon.ico">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/jquery-1.11.0.min.js"></script>
+    <title>账号注册</title>
+</head>
+<body>
+    <div class="regTab">
+        
+        <form>
+            <h3>注册华为账号</h3>
+            <p>用于访问所有华为终端云服务</p>
+            <div class="item uname"><label>昵称</label>
+                <input type="text" placeholder="请输入昵称">
+                <p></p>
+            </div>
+            <div class="item user"><label>手机号码</label>
+                <input type="text" placeholder="请输入手机号码">
+                <p></p>
+            </div>
+            <div class="item email">
+                <label>邮件地址</label><input type="text" placeholder="请输入邮件地址">
+                <p></p>
+            </div>
+            <div class="item psd">
+                <label>密   码</label><input type="password" placeholder="请输入密码">
+                <p></p>
+            </div>
+            <div class="item pwd">
+                <label>确认密码</label><input type="password" placeholder="请再次输入密码">
+                <p></p>
+            </div>
+            <div class="login"><input type="button" value="确认注册"></div>
+        </form>
+    </div> 
+    <script>
+        let userReg = /0?(13|14|15|18|17)[0-9]{9}/;
+        let psdReg = /\w[-\w.+]*@([A-Za-z0-9][-A-Za-z0-9]+\.)+[A-Za-z]{2,14}/;
+        let reg1 = /[a-z]/;
+        let reg2 = /[A-Z]/;
+        let reg3 = /[0-9]/; 
+
+        $('.user input').on("input",function(){
+            if(!userReg.test($('.user input').val())){
+                $('.user p').css("display","block").text('请输入正确的手机号!');
+            }else{
+                $('.user p').css("display","none").text('');
+            }
+        })
+
+        $('.email input').on("input",function(){
+            if(!psdReg.test($('.email input').val())){
+                $('.email p').css("display","block").text('请输入正确的邮件格式');
+            }else{
+                $('.email p').css("display","none").text('');
+            }
+        })
+
+        $('.psd input').on("input",function(){
+            let count1 = 0,count2 = 0,count3 =0;
+            if(reg1.test($('.psd input').val())){
+                count1 = 1;
+            }
+            if(reg2.test($('.psd input').val())){
+                count2 = 1;
+            }
+            if(reg3.test($('.psd input').val())){
+                count3 = 1;
+            }
+            switch(count1+count2+count3){
+                case 1:
+                    $('.psd p').css({"display":"block","background":"#ed3302"}).text('强度：低');
+                break;
+                case 2:
+                    $('.psd p').css({"display":"block","background":"#f78115"}).text('强度：中');
+                break;
+                case 3:
+                    $('.psd p').css({"display":"block","background":"#6ba001"}).text('强度：强');
+                break;
+            }
+        })
+
+        $('.psd input').blur(function(){
+            if($('.psd input').val().length < 6 || $('.psd input').val().length > 20){
+                $('.psd p').css({"display":"block","background":"#ed3302"}).text('密码长度应在6~20之间！');
+            }else{
+                $('.psd p').css({"display":"none"})
+            }
+            emptyItem($('.psd input'))
+        })
+
+        $('.user input').blur(function(){
+            emptyItem($('.user input'));
+        })
+
+
+        function emptyItem(jq){
+            if(jq.val().length == 0){
+                jq.next().css({"display":"block","background":"#ed3302"}).text("该内容不能为空！");
+            }
+        }
+
+        $('.pwd input').blur(function(){
+            if($('.pwd input').val() != $('.psd input').val()){
+                $('.pwd p').css({"display":"block","background":"#ed3302"}).text('两次输入的密码不一致！');
+            }else{
+                $('.pwd p').css({"display":"none"});
+            }
+            emptyItem($('.pwd input'));
+        })
+
+        $(".login input").click(function(){
+            
+            if(userReg.test($('.user input').val()) && psdReg.test($('.email input').val()) && $('.pwd input').val() == $('.psd input').val() && $('.psd input').val().length >= 6 && $('.psd input').val().length <= 20){
+                $.get("http://localhost:1003/userData",function(data){
+                    let flag = true;
+                    console.log(data);
+                
+                    $(data).each(function(item){
+                        if(data[item].id == $('.user input').val() || data[item].email == $('.email input').val()){
+                            flag = false;
+                            alert("已存在!");
+                        }
+                    })
+                  
+                    
+                    if(flag){
+                        $.ajax({
+                            type:"post",
+                            url:"http://localhost:1003/userData",
+                            data:{id:$('.user input').val(),name:$('.uname input').val(),psd:$('.pwd input').val(),email:$('.email input').val(),cartData:""}
+                        }).then(function(){
+                            alert("注册成功!");
+                           
+                             location.href = "http://localhost:8080/html/login.html";
+                           
+                        }) 
+                    }
+                        
+                    
+                })
+            }else{
+                alert("格式错误！");
+            }
+        })
+    </script> 
+</body>
+</html>
